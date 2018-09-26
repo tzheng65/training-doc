@@ -1,0 +1,24 @@
+total 1401668
+-rwxrw-rw- 1 wasadmin wasadmin   8491533 Jul 28  2016 apache-maven-3.3.9-bin.tar.gz
+-rwxrw-rw- 1 wasadmin wasadmin   9277365 Jul 28  2016 apache-tomcat-8.0.36.tar.gz
+-rwxrw-rw- 1 wasadmin wasadmin 140576660 Jul 28  2016 chefdk_0.15.16-1_amd64.deb
+-rwxrw-rw- 1 wasadmin wasadmin 304936538 Jul 28  2016 chef-manage_2.4.0-1_amd64.deb
+-rwxrw-rw- 1 wasadmin wasadmin 527789774 Jul 28  2016 chef-server-core_12.8.0-1_amd64.deb
+-rwxrw-rw- 1 wasadmin wasadmin     98176 Jul 28  2016 daemon_0.6.4-1_amd64.deb
+-rwxrw-rw- 1 wasadmin wasadmin    129966 Jul 28  2016 java-common_0.51_all.deb
+-rwxrw-rw- 1 wasadmin wasadmin  68004598 Jul 28  2016 jenkins_2.9_all.deb
+drwxrwxr-x 9 wasadmin wasadmin      4096 Sep 29  2016 labs
+-rwxrw-rw- 1 wasadmin wasadmin      9314 Jul 28  2016 libnss3-1d_3.23-0ubuntu0.14.04.1_amd64.deb
+-rwxrw-rw- 1 wasadmin wasadmin      9226 Jul 28  2016 libsctp1_1.0.15+dfsg-1_amd64.deb
+-rwxrw-rw- 1 wasadmin wasadmin 198840320 Jul 28  2016 mysql-server_5.7.13-1ubuntu16.04_amd64.deb-bundle.tar
+-rwxrw-rw- 1 wasadmin wasadmin  11206656 Jul 28  2016 nagios-4.1.1.tar.gz
+-rwxrw-rw- 1 wasadmin wasadmin   2677352 Jul 28  2016 nagios-plugins-2.1.1.tar.gz
+-rwxrw-rw- 1 wasadmin wasadmin  41034586 Jul 28  2016 openjdk-7-jre-headless_7u101-2.6.6-0ubuntu0.12.04.1_amd64.deb
+-rwxrw-rw- 1 wasadmin wasadmin      4606 Jul 28  2016 sample.war
+-rwxrw-rw- 1 wasadmin wasadmin      3088 Jul 28  2016 SimpleGreeting.zip
+drwxrwxr-x 2 wasadmin wasadmin      4096 Aug  2  2016 Solutions
+-rwxrw-rw- 1 wasadmin wasadmin   2270669 Jul 28  2016 sonar-javascript-plugin-2.14.jar
+-rwxrw-rw- 1 wasadmin wasadmin 117860548 Jul 28  2016 sonarqube-5.5.zip
+-rwxrw-rw- 1 wasadmin wasadmin    501750 Jul 28  2016 sonar-scanner-2.6.1.zip
+-rwxrw-rw- 1 wasadmin wasadmin     69590 Jul 28  2016 tzdata-java_2016f-0ubuntu0.14.04_all.deb
+-rw-rw-r-- 1 wasadmin wasadmin   1460688 Nov  1  2016 WA2543LabGuide.pdf
