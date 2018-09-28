@@ -1,0 +1,134 @@
+    1  abrt-cli list
+    2  exit
+    3  systemctl disable firewalld
+    4  yum install docker
+    5  systemctl disable firewalld
+    6  yum install docker
+    7  sed -i '/OPTIONS=.*/c\OPTIONS="--selinux-enabled --insecure-registry 172.30.0.0/16"' /etc/sysconfig/docker
+    8  systemctl enable docker
+    9  systemctl start docker
+   10  systemctl is-active docker
+   11  docker pull ubuntu:12.04
+   12  docker pull dongjoon/ubuntu12.04-jdk8
+   13  docker pull openshift/hello-openshift
+   14  docker pull openshift/jenkins-2-centos7
+   15  docker images
+   16  cd /etc/yum.repos.d/
+   17  wget http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo
+   18  yum update
+   19  reboot
+   20  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   21  yum install binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms
+   22  yum install binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-PAE-devel dkms
+   23  yum install VirtualBox-5.1
+   24  /usr/lib/virtualbox/vboxdrv.sh setup
+   25  curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.21.0/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+   26  curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+   27  docker pull nginx
+   28  exit
+   29  docker pull nginx
+   30  exit
+   31  curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && sudo chmod +x kubectl && sudo mv kubectl /usr/local/bin/
+   32  clear
+   33  curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && sudo chmod +x kubectl && sudo mv kubectl /usr/local/bin/
+   34  /usr/local/bin/minikube start
+   35  docker pull nginx
+   36  dhclient -r
+   37  dhclient -v
+   38  yum install docker
+   39  setenforce 0
+   40  systemctl stop firewalld
+   41  systemctl disable firewalld
+   42  systemctl enable docker
+   43  systemctl start docker 
+   44  docker pull openshift/hello-openshift-origin
+   45  docker pull node:boron
+   46  docker pull openshift/hello-openshift
+   47  cd ~
+   48  curl --silent --location https://rpm.nodesource.com/setup_4.x | sudo bash -
+   49  sudo yum -y install nodejs
+   50  sudo yum install java-1.8.0-openjdk.x86_64
+   51  cd ~
+   52  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+   53  sudo rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
+   54  sudo yum install jenkins
+   55  sudo systemctl start jenkins.service
+   56  sudo systemctl enable jenkins.service
+   57  sudo systemctl start jenkins.service
+   58  service jenkins restart
+   59  cat /var/lib/jenkins/secrets/initialAdminPassword
+   60  groupadd docker
+   61  usermod -aG docker jenkins
+   62  gpasswd -a jenkins docker 
+   63  systemctl restart docker 
+   64  service jenkins restart
+   65  yum install centos-release-openshift-origin
+   66  yum install net-tools bind-utils iptables-services bridge-utils bash-completion
+   67  yum install origin
+   68  oc cluster up
+   69  chmod 777 /var/lib/origin/openshift.local.config/master/admin.kubeconfig
+   70  exit
+   71  /usr/local/bin/minikube start
+   72  /usr/local/bin/kubectl run my-web-server --image=nginx --port=80
+   73  exit
+   74  /usr/local/bin/minikube start
+   75  /usr/local/bin/kubectl run my-web-server --image=nginx --port=80
+   76  exit
+   77  nano /etc/sysconfig/network-scripts/ifcfg-ens33 
+   78  reboot
+   79  docker
+   80  docker images
+   81  clear
+   82  docker images
+   83  docker run ubuntu:12.04 echo 'Yo Docker!'
+   84  docker ps
+   85  docker ps -a
+   86  docker rm 16b89d35dcd9
+   87  clear
+   88  docker run -it --hostname basic_host ubuntu:12.04 /bin/bash
+   89  docker ps -a
+   90  docker start 5103c40e3974
+   91  exit
+   92  docker stop 5103c40e3974
+   93  docker ps -a
+   94  docker commit 5103c40e3974 my_server:v1.0
+   95  docker images
+   96  docker run -it my_server:v1.0 /bin/bash
+   97  docker ps -a
+   98  docker rm 7f305d79e51c
+   99  docker rm 5103c40e3974
+  100  docker rmi my_server:v1.0
+  101  docker images
+  102  pwd
+  103  gedit Dockerfile
+  104  cat Dockerfile 
+  105  cd /home/wasadmin/
+  106  ls
+  107  ls Works/
+  108  ls
+  109  d
+  110  cd
+  111  ls
+  112  docker build -t dev-ubuntu:v1.0 .
+  113  vi Dockerfile 
+  114  ls /home/wasadmin/Works/
+  115  vi Dockerfile 
+  116  ls -l
+  117  docker build -t dev-ubuntu:v1.0 .
+  118  cp Dockerfile /home/wasadmin/Works/
+  119  cd /home/wasadmin/Works/
+  120  ls
+  121  vi Dockerfile 
+  122  docker build -t dev-ubuntu:v1.0 .
+  123  docker images
+  124  docker run --name dev --hostname dev -it dev-ubuntu:v1.0 /bin/bash
+  125  docker ps
+  126  docker ps -a
+  127  docker rm 014826eed211
+  128  docker ps -a
+  129  docker images
+  130  docker rmi a56d1d1c7e13
+  131  docker images
+  132  exit
+  133  history
+  134  history > install-kubernetes.txt
